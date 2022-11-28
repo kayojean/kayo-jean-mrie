@@ -1,0 +1,25 @@
+
+.nav-item a:hover{
+    color:white;
+}
+.carousel-item{
+    height: 33rem;
+}
+
+@media screen and (max-width:520px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+
+.carousel-item img{
+    filter: brightness(50%)
+}
+@media screen and (max-width:900px) {
+.carousel-caption{
+    margin-bottom: 180px;
+ }
+}
+.container p{
+    text-align: center;
+}
